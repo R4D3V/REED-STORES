@@ -3,14 +3,9 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    screens: {
-      sm: "475px",
-      md: "768px",
-      lg: "976px",
-      xl: "1440px",
-    },
-    darkMode: 'media',
     extend: {},
   },
   plugins: [],
+  
+  darkMode: "media",
 };
