@@ -6,13 +6,14 @@ import Faq from "./pages/faq";
 import Contact from "./pages/contact";
 import Services from "./pages/services";
 import Blog from "./pages/blog";
+
 const App = () => {
   return (
     <>
       <Header />
       <Routes>
         <Route path="" element={<Home />} />
-        <Route path="/about" element={<Faq />} />
+        <Route path="/faq" element={<Faq />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/services" element={<Services />} />

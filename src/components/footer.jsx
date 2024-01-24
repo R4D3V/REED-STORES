@@ -1,6 +1,4 @@
-// Date auto Copyright {new Date().getFullYear()}
-// import favicon from "../assets/android-chrome-192x192.png";
-// import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <>
@@ -44,7 +42,7 @@ export default function Footer() {
             </a>
         </div>
 
-        <p className="mt-6 text-sm lg:mt-0 ">© Copyright 2023 REED-STORES </p>
+        <p className="mt-6 text-sm lg:mt-0 ">© Copyright {new Date().getFullYear()} REED-STORES </p>
     </div>     
     </footer>
     </>
