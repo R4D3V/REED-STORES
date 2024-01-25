@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 export default function Nav() {
   return (
     <>
-       <nav className="p-4">
-      <div className="container mx-auto flex items-center justify-between">
+    <div className="container p-4 mx-auto flex items-center justify-between">
         {/* Left Section - Logo */}
         <div className="flex items-center">
         <Link to='/'>
@@ -33,7 +32,6 @@ export default function Nav() {
           <a href="#" className="text-white">Profile</a>
         </div>
       </div>
-    </nav>
     </>
   );
 }

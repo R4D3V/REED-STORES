@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import Faq from "./pages/faq";
 import Contact from "./pages/contact";
-import Services from "./pages/services";
+import Letter from "./pages/letter";
 
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
         <Route path="" element={<Home />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/letter" element={<Letter />} />
       </Routes>
       <Footer />
     </>
