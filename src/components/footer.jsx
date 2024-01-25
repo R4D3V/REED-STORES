@@ -9,19 +9,16 @@ export default function Footer() {
         
         <div className="flex flex-wrap items-center justify-center gap-4 mt-6 lg:gap-6 lg:mt-0">
             <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
-                About Us
+                <Link to='/about'>About Us</Link>
+            </a>
+
+
+            <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
+                <Link to='/'>Partners</Link>
             </a>
 
             <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
-                Meet the Team
-            </a>
-
-            <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
-                Partners
-            </a>
-
-            <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
-                Faq
+               <Link to='/faq'>Faq</Link>
             </a>
 
             <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
