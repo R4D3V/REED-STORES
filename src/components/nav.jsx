@@ -20,9 +20,9 @@ export default function Nav() {
 
         {/* Middle Section - Links */}
         <div className="hidden md:flex flex-grow items-center justify-center">
-          <a href="#" className=" mx-4">Shop</a>
-          <a href="#" className=" mx-4">Categories</a>
-          <a href="#" className=" mx-4">About Us</a>
+          <a href="#" className="mx-4">Shop</a>
+          <a href="#" className="mx-4">Categories</a>
+          <a href="#" className="mx-4">About Us</a>
           {/* Add more links as needed */}
         </div>
 
