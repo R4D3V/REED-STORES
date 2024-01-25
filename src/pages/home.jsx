@@ -4,9 +4,9 @@ function Home() {
      <section>
             <div className="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem] place-items-center">
                 <div className="flex flex-col items-center mx-auto text-center">
-                    <h1 className="text-4xl font-semibold text-white uppercase md:text-6xl">Hero Header</h1>
+                    <h1 className="text-4xl font-semibold  uppercase md:text-6xl">Hero Header</h1>
     
-                    <p className="mt-6 text-lg leading-5 text-white">The best in town.</p>
+                    <p className="mt-6 text-lg leading-5 ">The best in town.</p>
     
                     <a href="#about" className="mt-8 cursor-pointer animate-bounce">
                         <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -114,14 +114,14 @@ function Home() {
     
             <div className="flex items-center py-6 mt-4 -mx-2 overflow-x-auto whitespace-nowrap">
                 <button
-                    className=" inline-flex px-4 mx-2 focus:outline-none  items-center py-0.5 text-white bg-indigo-500 hover:bg-indigo-400 duration-300 transition-colors rounded-2xl">All</button>
+                    className=" inline-flex px-4 mx-2 focus:outline-none  items-center py-0.5  bg-indigo-500 hover:bg-indigo-400 duration-300 transition-colors rounded-2xl">All</button>
                 <button
-                    className=" inline-flex px-4 mx-2 duration-300 transition-colors hover:bg-indigo-500/70 hover:text-white text-gray-500 focus:outline-none py-0.5 cursor-pointer rounded-2xl">Web
+                    className=" inline-flex px-4 mx-2 duration-300 transition-colors hover:bg-indigo-500/70 hover: text-gray-500 focus:outline-none py-0.5 cursor-pointer rounded-2xl">Web
                     Design</button>
                 <button
-                    className=" inline-flex px-4 mx-2 duration-300 transition-colors hover:bg-indigo-500/70 hover:text-white text-gray-500 focus:outline-none py-0.5 cursor-pointer rounded-2xl">Development</button>
+                    className=" inline-flex px-4 mx-2 duration-300 transition-colors hover:bg-indigo-500/70 hover: text-gray-500 focus:outline-none py-0.5 cursor-pointer rounded-2xl">Development</button>
                 <button
-                    className=" inline-flex px-4 mx-2 duration-300 transition-colors hover:bg-indigo-500/70 hover:text-white text-gray-500 focus:outline-none py-0.5 cursor-pointer rounded-2xl">Research</button>
+                    className=" inline-flex px-4 mx-2 duration-300 transition-colors hover:bg-indigo-500/70 hover: text-gray-500 focus:outline-none py-0.5 cursor-pointer rounded-2xl">Research</button>
             </div>
     
             <div className="grid grid-cols-1 gap-10 mt-10 md:grid-cols-2 lg:grid-cols-3 ">

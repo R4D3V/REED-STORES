@@ -15,21 +15,21 @@ export default function Nav() {
           />
         </Link>
           
-          <span className="text-white text-lg font-semibold font-mono">REED~STORES</span>
+          <span className=" text-lg font-semibold font-mono">REED~STORES</span>
         </div>
 
         {/* Middle Section - Links */}
         <div className="hidden md:flex flex-grow items-center justify-center">
-          <a href="#" className="text-white mx-4">Shop</a>
-          <a href="#" className="text-white mx-4">Categories</a>
-          <a href="#" className="text-white mx-4">About Us</a>
+          <a href="#" className=" mx-4">Shop</a>
+          <a href="#" className=" mx-4">Categories</a>
+          <a href="#" className=" mx-4">About Us</a>
           {/* Add more links as needed */}
         </div>
 
         {/* Right Section - Cart and Profile */}
-        <div className="flex items-center">
-          <a href="#" className="text-white mr-4">Cart</a>
-          <a href="#" className="text-white">Profile</a>
+        <div className="flex items-center font-bold uppercase">
+          <a href="#" className=" mr-4">Cart</a>
+          <a href="#" className="">Profile</a>
         </div>
       </div>
     </>
