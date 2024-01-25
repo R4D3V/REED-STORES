@@ -1,4 +1,5 @@
 import logo from "../images/logo/reed.png";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
@@ -7,11 +8,14 @@ export default function Nav() {
       <div className="container mx-auto flex items-center justify-between">
         {/* Left Section - Logo */}
         <div className="flex items-center">
-          <img
+        <Link to='/'>
+        <img
             src={logo} // Replace with your actual logo path
             alt="Logo"
             className="h-8 w-auto mr-2"
           />
+        </Link>
+          
           <span className="text-white text-lg font-semibold font-mono">REED~STORES</span>
         </div>
 
