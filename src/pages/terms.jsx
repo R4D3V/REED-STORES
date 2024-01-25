@@ -6,7 +6,7 @@ function Terms() {
     <h2 className="text-3xl font-bold mb-4">Terms and Conditions</h2>
     <p className="mb-4">
       These terms and conditions outline the rules and regulations for the use of our Gadgets
-      Store's Website, located at www.gadgetsstore.com.
+      Stores Website, located at www.gadgetsstore.com.
     </p>
 
     <section>

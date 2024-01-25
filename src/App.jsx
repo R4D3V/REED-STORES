@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import Faq from "./pages/faq";
 import About from "./pages/about";
 import Terms from "./pages/terms"
+import Testimonials from "./pages/testimonials";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/faq" element={<Faq />} />
         <Route path="/about" element={<About />} />
         <Route path="terms" element={<Terms />} />
+        <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
       <Footer />
     </>
