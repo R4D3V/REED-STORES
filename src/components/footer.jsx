@@ -1,14 +1,18 @@
-
+import logo from "../images/logo/reed.png";
+import { Link } from "react-router-dom";
+// Date auto Copyright {new Date().getFullYear()}
 export default function Footer() {
   return (
     <>
-      <footer className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
-      <div className="container flex flex-col items-center justify-between px-6 py-8 mx-auto lg:flex-row">
-      {/* <a href="#">
-            <img class="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt="">
-        </a> */}
-       <h1>image goes here</h1>
-
+      <footer className="container flex flex-col items-center justify-between p-3 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
+      <div className="container flex flex-col items-center justify-between px-2 py-2 mx-auto lg:flex-row">
+        <Link to='/'>
+        <img
+            src={logo} // Replace with your actual logo path
+            alt="Logo"
+            className="h-8 w-auto mr-2"
+          />
+        </Link>
         <div className="flex flex-wrap items-center justify-center gap-4 mt-6 lg:gap-6 lg:mt-0">
             <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
                 About Us
@@ -20,9 +24,6 @@ export default function Footer() {
 
             <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
                 Partners
-            </a>
-            <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
-                Blog
             </a>
 
             <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
