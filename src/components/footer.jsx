@@ -30,7 +30,7 @@ export default function Footer() {
             </a>
         </div>
 
-        <p className="mt-6 text-sm lg:mt-0 ">© Copyright {new Date().getFullYear()} <Link to='/'>REED-STORES</Link>  </p>
+        <p className="mt-6 text-sm lg:mt-0 ">© Copyright {new Date().getFullYear()} <Link to='/'>REED~STORES</Link>  </p>
     </div>     
     </footer>
     </>
