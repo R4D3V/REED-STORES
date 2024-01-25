@@ -17,11 +17,11 @@ export default function Footer() {
             </a>
 
             <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
-                <Link to='/'>PARTNERS</Link>
+                <Link to='/products'>SHOP</Link>
             </a>
 
             <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
-                 <Link to='/testimonials'>TESTIMONIALS</Link>
+                <Link to='/testimonials'>TESTIMONIALS</Link>
             </a>
 
             <a href="#" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
