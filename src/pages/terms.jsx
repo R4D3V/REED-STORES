@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 function Terms() {
   return (
@@ -52,11 +52,17 @@ function Terms() {
         We reserve the right to refuse service, terminate accounts, remove or edit content, or
         cancel orders at our sole discretion.
       </p>
-      {/* Add more content */}
     </section>
+    <section className="mb-4">
+        <p>
+          Feel free to talk to us anytime, we are here for you.
+        </p>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
+        <Link to='/about'>Submit your request here</Link>
+        </button>
+      </section>
 
-    {/* Add more sections and content based on your specific terms and conditions */}
-  </div>
+     </div>
   )
 }
 
