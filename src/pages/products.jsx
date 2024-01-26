@@ -1,4 +1,4 @@
-function Phones() {
+function Products() {
     return (
       <div className="flex flex-wrap justify-center p-2 m-2 mt-[88px]">
           <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
@@ -346,4 +346,4 @@ function Phones() {
     )
   }
   
-  export default Phones;
+  export default Products;
