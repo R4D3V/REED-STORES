@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import home from "../icons/home.png"
+import home from "../icons/home.png";
+import up from "../icons/up.png"
 
 function navbar() {
   return (
@@ -15,8 +16,9 @@ function navbar() {
         <img src={home} alt="" className="w-4 h-4"/>
         </Link>
         <Link to='/testimonials' className="p-4 text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
-        <img src={home} alt="" className="w-4 h-4"/></Link> 
-        </div>     
+        <img src={up} alt="" className="w-4 h-4"/><a href="#"></a></Link> 
+        
+      </div>     
     </nav>
   )
 }
