@@ -8,6 +8,7 @@ import Terms from "./pages/terms"
 import Testimonials from "./pages/testimonials";
 import Products from "./pages/products"
 import Nav2 from "./pages/nav2";
+import Navbar from "./components/navbar";
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
       <Footer />
+      <Navbar />
     </>
   );
 };
