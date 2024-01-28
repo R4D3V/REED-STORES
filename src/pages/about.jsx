@@ -113,7 +113,7 @@ function About() {
                     </div>
 
                     <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide  capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
-                        Send message
+                        <a href="mailto:raymonjohns@gmail.com">Send message</a>
                     </button>
                 </form>
             </div>
