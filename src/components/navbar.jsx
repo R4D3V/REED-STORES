@@ -8,8 +8,8 @@ import faq from "../icons/faq.png"
 
 function navbar() {
   return (
-    <nav className="container  lg:hidden md:hidden sm:hidden ">
-       <div className="flex gap-4 flex-wrap fixed bottom-0 w-full justify-evenly bg-gray-400 text-white rounded-t-xl">
+    <nav className="container lg:hidden md:hidden sm:hidden ">
+       <div className="flex gap-4 flex-wrap fixed bottom-0 w-full justify-evenly bg-gray-400 text-white rounded-full">
        <Link to='/' className="p-4 text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
             <img src={home} alt="" className="w-4 h-4"/>
             </Link>  
