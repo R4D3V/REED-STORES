@@ -43,6 +43,38 @@ function Products() {
         </Link>
       </div>
     </div>
+    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={lap} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="p-6 relative flex flex-col justify-end">
+        <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Laptops</h4>
+        <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">We are proud to announce that our bank has achieved record-breaking profits this year. Thanks to our dedicated team and loyal customers, we have surpassed all expectations and set new industry standards. Read more to learn about our success story.</p>
+        <Link to='/nav2' className="p-4 text-sm text-white bg-black rounded-full w-fit ">
+        Check me out
+        </Link>
+      </div>
+    </div>
+    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={fone} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="p-6 relative flex flex-col justify-end">
+        <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Phones</h4>
+        
+        <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">We are excited to share that our bank has successfully expanded into new markets. With strategic partnerships and innovative solutions, we have established a strong presence in international markets. Learn more about our expansion journey and the opportunities it brings.</p>
+        <Link to='/nav2' className="p-4 text-sm text-white bg-black rounded-full w-fit ">
+        Check me out
+        </Link>
+      </div>
+    </div>
+    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={acc} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="p-6 relative flex flex-col justify-end">
+        <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Accessories</h4>
+        <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">Our bank has undergone a successful digital transformation, revolutionizing the way we serve our customers. From seamless online banking experiences to advanced security measures, we have embraced technology to enhance customer satisfaction. Discover the key milestones of our digital transformation journey.</p>
+        
+        <Link to='/nav2' className="p-4 text-sm text-white bg-black rounded-full w-fit ">
+        Check me out
+        </Link>
+      </div>
+    </div>
   </div>
 </div>
     )
