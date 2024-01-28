@@ -11,7 +11,7 @@ function nav2() {
     <img src={reed} alt="NIKE AI" className="object-cover w-full h-48 mt-2" />
     <div className="flex items-center justify-between px-4 py-2 ">
         <h1 className="text-lg font-bold ">$129</h1>
-        <button className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase transition-colors duration-300 transform  rounded hover:bg-gray-200 focus:bg-gray-400 ">Add to cart</button>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase transition-colors duration-300 transform  rounded hover:bg-gray-200 focus:bg-gray-400 dark:text-white ">Add to cart</button>
     </div>
 </div>
 <div className="max-w-xs overflow-hidden  rounded-lg shadow-lg ">
@@ -24,7 +24,7 @@ function nav2() {
 
     <div className="flex items-center justify-between px-4 py-2 ">
         <h1 className="text-lg font-bold ">$129</h1>
-        <button className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase transition-colors duration-300 transform  rounded hover:bg-gray-200 focus:bg-gray-400 ">Add to cart</button>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase transition-colors duration-300 transform  rounded hover:bg-gray-200 focus:bg-gray-400 dark:text-white ">Add to cart</button>
     </div>
 </div>
 <div className="max-w-xs overflow-hidden  rounded-lg shadow-lg ">
@@ -37,7 +37,7 @@ function nav2() {
 
     <div className="flex items-center justify-between px-4 py-2 ">
         <h1 className="text-lg font-bold ">$129</h1>
-        <button className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase transition-colors duration-300 transform  rounded hover:bg-gray-200 focus:bg-gray-400 ">Add to cart</button>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase transition-colors duration-300 transform  rounded hover:bg-gray-200 focus:bg-gray-400 dark:text-white ">Add to cart</button>
     </div>
 </div>
 <div className="max-w-xs overflow-hidden  rounded-lg shadow-lg ">
@@ -50,7 +50,7 @@ function nav2() {
 
     <div className="flex items-center justify-between px-4 py-2 ">
         <h1 className="text-lg font-bold ">$129</h1>
-        <button className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase transition-colors duration-300 transform  rounded hover:bg-gray-200 focus:bg-gray-400 ">Add to cart</button>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase transition-colors duration-300 transform  rounded hover:bg-gray-200 focus:bg-gray-400 dark:text-white ">Add to cart</button>
     </div>
 </div>
 <div className="max-w-xs overflow-hidden  rounded-lg shadow-lg ">
@@ -63,7 +63,7 @@ function nav2() {
 
     <div className="flex items-center justify-between px-4 py-2 ">
         <h1 className="text-lg font-bold ">$129</h1>
-        <button className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase transition-colors duration-300 transform  rounded hover:bg-gray-200 focus:bg-gray-400 ">Add to cart</button>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase transition-colors duration-300 transform  rounded hover:bg-gray-200 focus:bg-gray-400 dark:text-white ">Add to cart</button>
     </div>
 </div>
     </div>
