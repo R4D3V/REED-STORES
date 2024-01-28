@@ -17,7 +17,7 @@ export default function Footer() {
             </a>
 
             <a href="" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
-                <Link to='/nav2'>SHOP</Link>
+                <Link to='/products'>SHOP</Link>
             </a>
 
             <a href="" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">

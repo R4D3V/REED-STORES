@@ -1,348 +1,40 @@
+import { Link } from "react-router-dom"
+
 function Products() {
     return (
-      <div className="flex flex-wrap justify-center p-2 m-2 mt-[88px]">
-          <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                alt="product"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="p-6">
-              <div className="flex justify-between mb-2">
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
-                </p>
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
-                </p>
-              </div>
-              <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri access,
-                and an available wireless charging case.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] active:opacity-[0.85] active:shadow-none block w-full bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
-                type="button"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                alt="product"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="p-6">
-              <div className="flex justify-between mb-2">
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
-                </p>
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
-                </p>
-              </div>
-              <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri access,
-                and an available wireless charging case.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] active:opacity-[0.85] active:shadow-none block w-full bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
-                type="button"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                alt="product"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="p-6">
-              <div className="flex justify-between mb-2">
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
-                </p>
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
-                </p>
-              </div>
-              <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri access,
-                and an available wireless charging case.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] active:opacity-[0.85] active:shadow-none block w-full bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
-                type="button"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                alt="product"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="p-6">
-              <div className="flex justify-between mb-2">
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
-                </p>
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
-                </p>
-              </div>
-              <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri access,
-                and an available wireless charging case.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] active:opacity-[0.85] active:shadow-none block w-full bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
-                type="button"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                alt="product"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="p-6">
-              <div className="flex justify-between mb-2">
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
-                </p>
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
-                </p>
-              </div>
-              <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri access,
-                and an available wireless charging case.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] active:opacity-[0.85] active:shadow-none block w-full bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
-                type="button"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                alt="product"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="p-6">
-              <div className="flex justify-between mb-2">
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
-                </p>
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
-                </p>
-              </div>
-              <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri access,
-                and an available wireless charging case.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] active:opacity-[0.85] active:shadow-none block w-full bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
-                type="button"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                alt="product"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="p-6">
-              <div className="flex justify-between mb-2">
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
-                </p>
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
-                </p>
-              </div>
-              <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri access,
-                and an available wireless charging case.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] active:opacity-[0.85] active:shadow-none block w-full bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
-                type="button"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                alt="product"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="p-6">
-              <div className="flex justify-between mb-2">
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
-                </p>
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
-                </p>
-              </div>
-              <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri access,
-                and an available wireless charging case.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] active:opacity-[0.85] active:shadow-none block w-full bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
-                type="button"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                alt="product"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="p-6">
-              <div className="flex justify-between mb-2">
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
-                </p>
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
-                </p>
-              </div>
-              <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri access,
-                and an available wireless charging case.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] active:opacity-[0.85] active:shadow-none block w-full bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
-                type="button"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                alt="product"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="p-6">
-              <div className="flex justify-between mb-2">
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
-                </p>
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
-                </p>
-              </div>
-              <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri access,
-                and an available wireless charging case.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] active:opacity-[0.85] active:shadow-none block w-full bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
-                type="button"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                alt="product"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="p-6">
-              <div className="flex justify-between mb-2">
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
-                </p>
-                <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
-                </p>
-              </div>
-              <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri access,
-                and an available wireless charging case.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] active:opacity-[0.85] active:shadow-none block w-full bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
-                type="button"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-        </div>
+<div className="container mx-auto px-8 py-8 lg:py-40">
+  <h2 className="block antialiased tracking-normal font-sans text-4xl font-semibold leading-[1.3] text-blue-gray-900 !text-3xl !leading-snug lg:!text-4xl">Shop by your preffered choice.</h2>
+  <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mt-2 w-full font-normal !text-gray-500 lg:w-5/12">Read about our latest achievements and milestones.</p>
+  <a href="#">Generated with <b>Magic AI Blocks</b> by Creative Tim</a>.
+  <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
+    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src="https://bucket.material-tailwind.com/magic-ai/58b51625af5803baea7811b7e9128c8b23c0706c3271fa863b6bc287c2d3958a.jpg" alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="p-6 relative flex flex-col justify-end">
+        <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Laptops</h4>
+        <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">We are proud to announce that our bank has achieved record-breaking profits this year. Thanks to our dedicated team and loyal customers, we have surpassed all expectations and set new industry standards. Read more to learn about our success story.</p>
+      </div>
+    </div>
+    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src="https://bucket.material-tailwind.com/magic-ai/36e7d64250cd9568062f658a26b4d0107c00235cb3b85fa4919b3ba4070c9bed.jpg" alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="p-6 relative flex flex-col justify-end">
+        <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Phones</h4>
+        <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">We are excited to share that our bank has successfully expanded into new markets. With strategic partnerships and innovative solutions, we have established a strong presence in international markets. Learn more about our expansion journey and the opportunities it brings.</p>
+      </div>
+    </div>
+    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src="https://bucket.material-tailwind.com/magic-ai/36e7d64250cd9568062f658a26b4d0107c00235cb3b85fa4919b3ba4070c9bed.jpg" alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="p-6 relative flex flex-col justify-end">
+        <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Accessories</h4>
+        <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">Our bank has undergone a successful digital transformation, revolutionizing the way we serve our customers. From seamless online banking experiences to advanced security measures, we have embraced technology to enhance customer satisfaction. Discover the key milestones of our digital transformation journey.</p>
+        <button>
+        <Link to='/nav2' className="p-4 text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
+        Check me out
+        </Link>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
     )
   }
   

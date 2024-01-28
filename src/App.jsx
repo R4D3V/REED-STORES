@@ -7,7 +7,7 @@ import About from "./pages/about";
 import Terms from "./pages/terms"
 import Testimonials from "./pages/testimonials";
 import Products from "./pages/products"
-import Nav2 from "./pages/nav2";
+import Nav2 from "./products/nav2";
 import Navbar from "./components/navbar";
 
 
