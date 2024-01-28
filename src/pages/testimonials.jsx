@@ -15,7 +15,7 @@ function Testimonials() {
         </p>
 
         <div className="grid grid-cols-1 gap-8 mx-auto mt-8 lg:grid-cols-2 xl:mt-10 max-w-7xl">
-            <div className="p-6 bg-gray-100 rounded-lg dark:bg-gray-800 md:p-8">
+            <div className="p-6 bg-gray-100 rounded-lg dark:bg-gray-800 md:p-8 ">
                 <p className="leading-loose text-gray-500 dark:text-gray-300">
                     “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa aperiam dolorum, obcaecati corrupti aspernatur a.”.
                 </p>
