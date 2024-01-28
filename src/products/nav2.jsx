@@ -2,7 +2,7 @@ import reed from "../images/logo/reed.png"
 
 function nav2() {
   return (
-    <div  className="container flex justify-center gap-8 flex-wrap">
+    <div  className="container flex justify-center gap-8 flex-wrap p-3">
       <div className="max-w-xs overflow-hidden  rounded-lg shadow-lg ">
     <div className="px-4 py-2">
         <h1 className="text-xl font-bold uppercase ">NIKE AIR</h1>
