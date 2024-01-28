@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import logo from "../images/logo/reed.png";
+import lap from "../images/lap.png";
+import fone from "../images/fone.png";
+import acc from "../images/acc.jpg"
 
 
 function Products() {
@@ -9,7 +11,7 @@ function Products() {
   <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mt-2 w-full font-normal !text-gray-500 lg:w-5/12">Read about our latest achievements and milestones.</p>
   <a href="#">Generated with <b>Magic AI Blocks</b> by Creative Tim</a>.
   <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
-    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={logo} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={lap} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
         <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Laptops</h4>
@@ -19,7 +21,7 @@ function Products() {
         </Link>
       </div>
     </div>
-    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src="https://bucket.material-tailwind.com/magic-ai/36e7d64250cd9568062f658a26b4d0107c00235cb3b85fa4919b3ba4070c9bed.jpg" alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={fone} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
         <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Phones</h4>
@@ -30,7 +32,7 @@ function Products() {
         </Link>
       </div>
     </div>
-    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src="https://bucket.material-tailwind.com/magic-ai/36e7d64250cd9568062f658a26b4d0107c00235cb3b85fa4919b3ba4070c9bed.jpg" alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={acc} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
         <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Accessories</h4>

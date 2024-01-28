@@ -46,7 +46,7 @@ function About() {
 
                     <h2 className="mt-4 text-base font-medium  dark:">Email</h2>
                     <p className="mt-2 text-sm  ">Our friendly team is here to help.</p>
-                    <p className="mt-2 text-sm  ">hello@merakiui.com</p>
+                    <p className="mt-2 text-sm  ">raymonjohns@gmail.com</p>
                 </div>
 
                 <div>
