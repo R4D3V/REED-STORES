@@ -4,7 +4,7 @@ import reed from "../images/logo/reed.png"
 
 function accessory() {
   return (
-    <div  className="container m-2 flex flex-wrap gap-6 justify-evenly flex-col-">
+    <div  className="container p-4 flex flex-wrap gap-4 justify-evenly flex-col-">
         <div className="max-w-xs overflow-hidden shadow-black rounded-lg shadow-lg dark:shadow-teal-100">
       <div className="px-4 py-2">
           <h1 className="text-xl font-bold uppercase ">NIKE AIR</h1>

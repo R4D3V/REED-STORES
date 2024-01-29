@@ -16,7 +16,7 @@ function Products() {
       <div className="p-6 relative flex flex-col justify-end items-center">
         <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Laptops</h4>
         <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">We are proud to announce that our bank has achieved record-breaking profits this year. Thanks to our dedicated team and loyal customers, we have surpassed all expectations and set new industry standards. Read more to learn about our success story.</p>
-        <Link to='/laptops' className="p-4 text-sm text-white bg-black rounded-full w-fit ">
+        <Link to='/laptops' className="p-4 text-sm text-white bg-black rounded-full w-fit">
         Check me out
         </Link>
       </div>
