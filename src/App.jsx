@@ -7,8 +7,10 @@ import About from "./pages/about";
 import Terms from "./pages/terms"
 import Testimonials from "./pages/testimonials";
 import Products from "./pages/products"
-import Nav2 from "./products/nav2";
+import Phones from "./products/phones";
 import Navbar from "./components/navbar";
+import Laptops from "./products/laptops";
+import Accessory from "./products/accessory";
 
 
 const App = () => {
@@ -19,8 +21,10 @@ const App = () => {
         <Route path="" element={<Home />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/about" element={<About />} />
-        <Route path="/nav2" element={<Nav2 />} />
+        <Route path="/phones" element={<Phones />} />
         <Route path="terms" element={<Terms />} />
+        <Route path="laptops" element={<Laptops />} />
+        <Route path="/accessory" element={<Accessory />} />
         <Route path="/products" element={<Products />} />
         <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
