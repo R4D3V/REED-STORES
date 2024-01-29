@@ -11,7 +11,7 @@ function Products() {
   <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mt-2 w-full font-normal !text-gray-500 lg:w-5/12">Read about our latest achievements and milestones.</p>
   <a href="#">Generated with <b>Magic AI Blocks</b> by Creative Tim</a>.
   <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
-    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={lap} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+    <div className="relative shadow-black flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md  grid min-h-[30rem] items-end overflow-hidden dark:shadow-cyan-600"><img src={lap} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end items-center">
         <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Laptops</h4>
@@ -21,7 +21,7 @@ function Products() {
         </Link>
       </div>
     </div>
-    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={fone} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+    <div className="relative flex shadow-black flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden dark:shadow-cyan-600"><img src={fone} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end items-center">
         <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Phones</h4>
@@ -32,7 +32,7 @@ function Products() {
         </Link>
       </div>
     </div>
-    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={acc} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+    <div className="relative flex shadow-black flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden dark:shadow-cyan-600"><img src={acc} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end items-center">
         <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Accessories</h4>
@@ -43,7 +43,7 @@ function Products() {
         </Link>
       </div>
     </div>
-    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={lap} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+    <div className="relative flex shadow-black flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden dark:shadow-cyan-600"><img src={lap} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end items-center">
         <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Laptops</h4>
@@ -53,7 +53,7 @@ function Products() {
         </Link>
       </div>
     </div>
-    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={fone} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+    <div className="relative flex shadow-black flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden dark:shadow-cyan-600"><img src={fone} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end items-center">
         <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Phones</h4>
@@ -64,7 +64,7 @@ function Products() {
         </Link>
       </div>
     </div>
-    <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={acc} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+    <div className="relative flex shadow-black flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden dark:shadow-cyan-600"><img src={acc} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end items-center">
         <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Accessories</h4>
