@@ -5,7 +5,7 @@ import image from "../images/logo/reed.png"
 function Home() {
   return (
    <div className="" >
-     <div className="flex-col absolute bg-clip-border  bg-transparent text-gray-700 relative grid"> 
+     <div className="flex-col relative  bg-clip-border  bg-transparent text-gray-700 relative grid"> 
        <video className="w-full h-full object-cover" autoPlay loop muted>
         <source src={video} type="video/mp4" />
         Your
