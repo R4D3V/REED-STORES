@@ -43,20 +43,7 @@ function Products() {
         Check me out
         </Link>
       </div>
-      <div className="relative flex shadow-black flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden dark:shadow-cyan-600"> <video className="w-full h-full object-cover" autoPlay loop muted>
-        <source src={video} type="video/mp4" />
-        Your
-      </video>
-      <div className="absolute inset-0 bg-black/40"></div>
-      <div className="p-6 relative flex flex-col justify-end items-center">
-        <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Phones</h4>
-        
-        <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">We are excited to share that our bank has successfully expanded into new markets. With strategic partnerships and innovative solutions, we have established a strong presence in international markets. Learn more about our expansion journey and the opportunities it brings.</p>
-        <Link to='/phones' className="p-4 text-sm text-white bg-black rounded-full w-fit ">
-        Check me out
-        </Link>
-      </div>
-    </div>
+     
     </div>
   </div>
 </div>
