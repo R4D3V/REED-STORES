@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navigation = () => {
 
   return (
-    <nav className="container xs:hidden flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
+    <nav className="container fixed top-0 flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
     
         <a href="#" className="text-gray-800 transition-colors duration-300 transform dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6">home</a>
 
