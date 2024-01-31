@@ -31,7 +31,7 @@ function Home() {
 
         <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
             <div>
-                <img src={image} alt="" className="relative object-cover w-full rounded-md h-96" />
+                <img src={image} alt="" className="relative object-cover w-full rounded-md h-50" />
 
                 <div className="relative  max-w-lg p-6 mx-auto -mt-20  rounded-md shadow dark:bg-gray-900">
                     <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
@@ -48,7 +48,7 @@ function Home() {
             </div>
 
             <div>
-            <img src={image} alt="" className="relative object-cover w-full rounded-md h-96" />
+            <img src={image} alt="" className="relative object-cover w-full rounded-md h-50" />
                 <div className="relative  max-w-lg p-6 mx-auto -mt-20  rounded-md shadow dark:bg-gray-900">
                     <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
                         How to use sticky note for problem solving
