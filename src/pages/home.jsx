@@ -1,6 +1,6 @@
 function Home() {
   return (
-   <div>
+   <div className="mt-[88px]">
      <section>
             <div className="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem] place-items-center">
                 <div className="flex flex-col items-center mx-auto text-center">

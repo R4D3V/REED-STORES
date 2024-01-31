@@ -6,7 +6,7 @@ import acc from "../images/acc.jpg"
 
 function Products() {
     return (
-<div className="container mx-auto px-8 py-8 lg:py-40">
+<div className="container mx-auto px-8 py-8 lg:py-40 mt-[88px]">
   <h2 className="block antialiased tracking-normal font-sans text-4xl font-semibold leading-[1.3] text-blue-gray-900 !text-3xl !leading-snug lg:!text-4xl">Shop by your preffered choice.</h2>
   <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mt-2 w-full font-normal !text-gray-500 lg:w-5/12">Read about our latest achievements and milestones.</p>
   <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
