@@ -1,4 +1,4 @@
-
+import whatsapp from "../icons/whatsapp.svg"
 
 function About() {
     
@@ -34,10 +34,10 @@ function About() {
 
             <h1 className="mt-2 text-2xl font-semibold text-center md:text-3xl">Chat to our friendly team</h1>
 
-            <p className="mt-3 text-center ">We’d love to hear from you. Please fill out this form or shoot us an email.</p>
+            <p className="mt-3 text-center ">We’d love to hear from you. Please reach out to us by any means.</p>
         </div>
 
-        <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
+        <div className=" mt-10">
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2 text-center">
                 <div>
                     <span className="inline-block p-3  rounded-full  ">
@@ -55,16 +55,13 @@ function About() {
                 </div>
 
                 <div>
-                    <span className="inline-block p-3  rounded-full  ">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                        </svg>
+                    <span className="inline-block p-3 rounded-full  ">
+                        <img src={whatsapp} alt="chat" className="w-8 h-8 dark:bg-gray-500 rounded-xl "/>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium  dark:">Live chat</h2>
+                    <h2 className="mt-4 text-base font-medium  dark:">Whatsapp</h2>
                     <p className="mt-2 text-sm  ">Our friendly team is here to help.</p>
-                    <p className="mt-2 text-sm  ">Start new chat</p>
+                    <p className="mt-2 text-sm  "><a className="bg-gray-800 p-2 rounded-full text-white" href="https://wa.me/message/EMSUIOYUA5SDI1">Start new chat</a></p>
                 </div>
 
                 <div>
@@ -75,7 +72,7 @@ function About() {
                         </svg>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium  dark:">Office</h2>
+                    <h2 className="mt-4 text-base font-medium">Office</h2>
                     <p className="mt-2 text-sm  ">Come say hello at our office HQ.</p>
                     <p className="mt-2 text-sm  ">100 Smith Street Collingwood VIC 3066 AU</p>
                 </div>
@@ -89,14 +86,10 @@ function About() {
                     
                     <h2 className="mt-4 text-base font-medium  dark:">Phone</h2>
                     <p className="mt-2 text-sm  ">Mon-Fri from 8am to 5pm.</p>
-                    <p className="mt-2 text-sm  ">+1 (555) 000-0000</p>
+                    <p className="mt-2 text-sm"><a className="bg-gray-800 p-2 rounded-full text-white" href="tel:+256751621506">+256751621506</a></p>
                 </div>
             </div>
-
-          
-            
-            
-        </div>
+       </div>
     </div>
 </section>
     </div>

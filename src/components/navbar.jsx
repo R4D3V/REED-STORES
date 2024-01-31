@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
-import home from "../icons/home.png";
+import home from "../icons/home.svg";
 import up from "../icons/up.png";
 import shop from "../icons/shop.png";
 import about from "../icons/about.png";
-import faq from "../icons/faq.png"
 
 
 function navbar() {
@@ -16,9 +15,7 @@ function navbar() {
         <Link to='/products' className="p-4 text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
         <img src={shop} alt="" className="w-4 h-4"/>
         </Link>
-        <Link to='/faq' className="p-4 text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
-        <img src={faq} alt="" className="w-4 h-4"/>
-        </Link>
+        
         <Link to='/about' className="p-4 text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
         <img src={about} alt="" className="w-4 h-4"/>
         </Link>
