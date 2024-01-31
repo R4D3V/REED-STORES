@@ -4,7 +4,7 @@ import image from "../images/logo/reed.png"
 
 function Home() {
   return (
-   <div className="" >
+   <div className="mt-[60px]" >
      <div className="flex-col bg-clip-border  bg-transparent text-gray-700 relative grid"> 
        <video className="w-full h-full object-cover" autoPlay loop muted>
         <source src={video} type="video/mp4" />
