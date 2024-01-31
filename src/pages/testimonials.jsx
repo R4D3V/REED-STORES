@@ -3,7 +3,7 @@ import logo from "../images/logo/reed.png";
 
 function Testimonials() {
   return (
-    <div className="bg-white dark:bg-gray-900 mt-[88px]">
+    <div className="bg-white dark:bg-gray-900 ">
     <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
             What our <span className="text-blue-500 ">clients</span> say

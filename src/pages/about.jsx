@@ -3,7 +3,7 @@ import whatsapp from "../icons/whatsapp.svg"
 function About() {
     
   return (
-    <div className="container mt-[88px]">
+    <div className="container">
      <div className="container mx-auto p-6 text-center">
       <h2 className="text-3xl font-bold mb-4">About Our Gadgets Store</h2>
       <p className="mb-4">
