@@ -2,7 +2,7 @@ import reed from "../images/logo/reed.png"
 
 function speakers() {
   return (
-    <div className="container gap-8 flex-wrap pt-8 flex items-center justify-center">
+    <div className="container gap-8 flex-wrap pt-8 p-8 flex items-center justify-center">
          <div className="max-w-sm mx-auto relative shadow-md rounded-lg dark:shadow-red-800 ">
                 <img src={reed} alt="NIKE AI" className="w-full h-auto object-cover rounded-lg" />
 
