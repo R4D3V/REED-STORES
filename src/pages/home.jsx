@@ -4,14 +4,14 @@ import image from "../images/logo/reed.png"
 
 function Home() {
   return (
-   <div className="" >
-     <div className="flex-col bg-clip-border bg-transparent relative grid"> 
+   <div className="container" >
+     <div className="flex-col bg-clip-border bg-transparent relative grid sm:h-2/4"> 
        <video className="w-full h-full object-cover lg:h-[70vh]" autoPlay loop muted>
         <source src={video} type="video/mp4" />
         Your
       </video>
-      <div className=" px-6 absolute inset-0 bg-black/70 pb-16 flex flex-col justify-end items-center">
-      <h4 className="block antialiased tracking-normal font-sans text-3xl text-gray-300 font-semibold leading-snug text-white">
+      <div className=" px-6 absolute inset-0 bg-black/70 pb-4 flex flex-col justify-end items-center">
+      <h4 className="block antialiased tracking-normal font-sans text-2xl sm:textlg text-gray-300 font-semibold leading-snug text-white">
         Welcome to our online store.
       </h4>
         
@@ -65,7 +65,7 @@ function Home() {
                 </div>
             </div>
         </div>
-        <div>
+        <div className="container">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
       <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg]  shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
       <div className="mx-auto max-w-2xl lg:max-w-4xl">
