@@ -45,6 +45,18 @@ function Products() {
       </div>
      
     </div>
+    <div className="relative flex shadow-black flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden dark:shadow-cyan-600"><img src={acc} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
+      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="p-6 relative flex flex-col justify-end items-center">
+        <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Accessories</h4>
+        <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">Our bank has undergone a successful digital transformation, revolutionizing the way we serve our customers. From seamless online banking experiences to advanced security measures, we have embraced technology to enhance customer satisfaction. Discover the key milestones of our digital transformation journey.</p>
+        
+        <Link to='/speakers' className="p-4 text-sm text-white bg-black rounded-full w-fit ">
+        Speakers
+        </Link>
+      </div>
+     
+    </div>
   </div>
 </div>
     )

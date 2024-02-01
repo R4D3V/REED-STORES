@@ -61,7 +61,7 @@ function About() {
                     
                     <h2 className="mt-4 text-base font-medium  dark:">Whatsapp</h2>
                     <p className="mt-2 text-sm  ">Our friendly team is here to help.</p>
-                    <p className="mt-2 text-sm  "><a className="bg-gray-800 p-2 rounded-full text-white" href="https://wa.me/message/EMSUIOYUA5SDI1">Start new chat</a></p>
+                    <p className="mt-2 text-sm  "><a className="bg-gray-800 p-2 rounded-full text-white" href="https://wa.me/message/EMSUIOYUA5SDI1">Start new chat <b><i>Now</i></b></a></p>
                 </div>
 
                 <div>

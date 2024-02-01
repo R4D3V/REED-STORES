@@ -5,17 +5,19 @@ import image from "../images/logo/reed.png"
 function Home() {
   return (
    <div className="" >
-     <div className="flex-col bg-clip-border  bg-transparent text-gray-700 relative grid"> 
-       <video className="w-full h-full object-cover" autoPlay loop muted>
+     <div className="flex-col bg-clip-border bg-transparent relative grid"> 
+       <video className="w-full h-full object-cover lg:h-[70vh]" autoPlay loop muted>
         <source src={video} type="video/mp4" />
         Your
       </video>
-      <div className="absolute inset-0 bg-black/40 p-6 flex flex-col justify-end items-center">
-      <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Phones</h4>
+      <div className=" px-6 absolute inset-0 bg-black/70 pb-16 flex flex-col justify-end items-center">
+      <h4 className="block antialiased tracking-normal font-sans text-3xl text-gray-300 font-semibold leading-snug text-white">
+        Welcome to our online store.
+      </h4>
         
-        <p className="block antialiased font-sans text-baseleading-relaxed text-white my-2 font-normal">We are excited to share that our bank has successfully expanded into new markets. With strategic partnerships and innovative solutions, we have established a strong presence in international markets. Learn more about our expansion journey and the opportunities it brings.</p>
+        <p className="block antialiased  text-white my-2 font-normal text-center">We are excited to have you here  <b>And</b> showcase our beautiful products to you.</p>
         <Link to='/products' className="p-4 text-sm text-white bg-black rounded-full w-fit ">
-        Check me out
+        Check out our products
         </Link>
       </div>
     </div>
@@ -62,6 +64,41 @@ function Home() {
                     <p className="mt-3 text-sm text-blue-500">20 October 2019</p>
                 </div>
             </div>
+        </div>
+        <div>
+        <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
+      <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg]  shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
+      <div className="mx-auto max-w-2xl lg:max-w-4xl">
+        <img className="mx-auto h-12" src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg" alt="" />
+        <figure className="mt-10">
+          <blockquote className="text-center text-xl font-semibold leading-8  sm:text-2xl sm:leading-9">
+            <p>
+              “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
+              molestiae. Numquam corrupti in laborum sed rerum et corporis.”
+            </p>
+          </blockquote>
+          <figcaption className="mt-10">
+            <img
+              className="mx-auto h-10 w-10 rounded-full"
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              alt=""
+            />
+            <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+              <div className="font-semibold text-gray-400">Judith Black</div>
+              <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-gray-900">
+                <circle cx={1} cy={1} r={1} />
+              </svg>
+              <div className="text-gray-400">CEO of Workcation</div>
+            </div>
+          </figcaption>
+        </figure>
+       
+      </div>
+      <div className="flex items-center flex-wrap justify-center mt-8">
+      <Link to='/testimonials' className="p-4 text-sm text-white bg-black rounded-full w-fit">
+        Check out more of our <strong>Testimonies</strong>
+        </Link>
+      </div>
         </div>
     </div>
    </div>

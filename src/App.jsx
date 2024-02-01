@@ -11,6 +11,7 @@ import Phones from "./products/phones";
 import Navbar from "./components/navbar";
 import Laptops from "./products/laptops";
 import Accessory from "./products/accessory";
+import Speakers from "./products/speakers";
 
 
 const App = () => {
@@ -23,7 +24,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/phones" element={<Phones />} />
         <Route path="terms" element={<Terms />} />
-        <Route path="laptops" element={<Laptops />} />
+        <Route path="speakers" element={<Speakers />} />
+        <Route path="/laptops" element={<Laptops />} />
         <Route path="/accessory" element={<Accessory />} />
         <Route path="/products" element={<Products />} />
         <Route path="/testimonials" element={<Testimonials />} />
