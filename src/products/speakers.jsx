@@ -8,4 +8,4 @@ function speakers() {
   )
 }
 
-export default speakers
+export default speakers;
