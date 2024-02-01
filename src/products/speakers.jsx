@@ -1,50 +1,68 @@
+import reed from "../images/logo/reed.png"
 
 function speakers() {
   return (
-    <div className="p-4 flex flex-wrap justify-center gap-6 lg:gap-20 md:gap-14">
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/UOavP_Z38lE"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/UZe35tk5UoA"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/7-xmprXdiAk"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/PV9QQFDB5W8"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/TSYQ5stQVjg"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/UOavP_Z38lE"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/UOavP_Z38lE"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/UOavP_Z38lE"
-              alt=""
-            />
-          </div>
+    <div className="container gap-8 flex-wrap pt-8 flex items-center justify-center">
+         <div className="max-w-sm mx-auto relative shadow-md rounded-lg dark:shadow-red-800 ">
+                <img src={reed} alt="NIKE AI" className="w-full h-auto object-cover rounded-lg" />
+
+                  <div className="absolute bottom-0 left-0 right-0 h-40 bg-black bg-opacity-50 backdrop-blur text-white p-4 rounded-b-lg">
+                    <h1 className="text-2xl font-semibold">Nature Image</h1>
+                    <p className="mt-2">This is a beautiful nature image placeholder. You can replace it with your own image.</p>
+                  </div>
+                </div>
+                <div className="max-w-sm mx-auto relative shadow-md rounded-lg dark:shadow-red-800 ">
+                <img src={reed} alt="NIKE AI" className="w-full h-auto object-cover rounded-lg" />
+
+                  <div className="absolute bottom-0 left-0 right-0 h-40 bg-black bg-opacity-50 backdrop-blur text-white p-4 rounded-b-lg">
+                    <h1 className="text-2xl font-semibold">Nature Image</h1>
+                    <p className="mt-2">This is a beautiful nature image placeholder. You can replace it with your own image.</p>
+                  </div>
+                </div>
+                <div className="max-w-sm mx-auto relative shadow-md rounded-lg dark:shadow-red-800 ">
+                <img src={reed} alt="NIKE AI" className="w-full h-auto object-cover rounded-lg" />
+
+                  <div className="absolute bottom-0 left-0 right-0 h-40 bg-black bg-opacity-50 backdrop-blur text-white p-4 rounded-b-lg">
+                    <h1 className="text-2xl font-semibold">Nature Image</h1>
+                    <p className="mt-2">This is a beautiful nature image placeholder. You can replace it with your own image.</p>
+                  </div>
+                </div>
+                <div className="max-w-sm mx-auto relative shadow-md rounded-lg dark:shadow-red-800 ">
+                <img src={reed} alt="NIKE AI" className="w-full h-auto object-cover rounded-lg" />
+
+                  <div className="absolute bottom-0 left-0 right-0 h-40 bg-black bg-opacity-50 backdrop-blur text-white p-4 rounded-b-lg">
+                    <h1 className="text-2xl font-semibold">Nature Image</h1>
+                    <p className="mt-2">This is a beautiful nature image placeholder. You can replace it with your own image.</p>
+                  </div>
+                </div>
+                <div className="max-w-sm mx-auto relative shadow-md rounded-lg dark:shadow-red-800 ">
+                <img src={reed} alt="NIKE AI" className="w-full h-auto object-cover rounded-lg" />
+
+                  <div className="absolute bottom-0 left-0 right-0 h-40 bg-black bg-opacity-50 backdrop-blur text-white p-4 rounded-b-lg">
+                    <h1 className="text-2xl font-semibold">Nature Image</h1>
+                    <p className="mt-2">This is a beautiful nature image placeholder. You can replace it with your own image.</p>
+                  </div>
+                </div>
+                <div className="max-w-sm mx-auto relative shadow-md rounded-lg dark:shadow-red-800 ">
+                <img src={reed} alt="NIKE AI" className="w-full h-auto object-cover rounded-lg" />
+
+                  <div className="absolute bottom-0 left-0 right-0 h-40 bg-black bg-opacity-50 backdrop-blur text-white p-4 rounded-b-lg">
+                    <h1 className="text-2xl font-semibold">Nature Image</h1>
+                    <p className="mt-2">This is a beautiful nature image placeholder. You can replace it with your own image.</p>
+                  </div>
+                </div>
+                <div className="max-w-sm mx-auto relative shadow-md rounded-lg dark:shadow-red-800 ">
+                <img src={reed} alt="NIKE AI" className="w-full h-auto object-cover rounded-lg" />
+
+                  <div className="absolute bottom-0 left-0 right-0 h-40 bg-black bg-opacity-50 backdrop-blur text-white p-4 rounded-b-lg">
+                    <h1 className="text-2xl font-semibold">Nature Image</h1>
+                    <p className="mt-2">This is a beautiful nature image placeholder. You can replace it with your own image.</p>
+                  </div>
+                </div>
+                
+        </div>
   )
-}
+};
 
 
 export default speakers;
