@@ -2,7 +2,6 @@ import video from "../video/one.mp4";
 import { Link } from "react-router-dom";
 import two from "../video/two.mp4";
 import lap from "../images/lap.png";
-
 import spk from "../images/spk.jpg";
 
 
