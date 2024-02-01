@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import lap from "../images/lap.png";
 import fone from "../images/fone.png";
 import acc from "../images/acc.jpg"
-import video from "../video/one.mp4";
 
 
 
