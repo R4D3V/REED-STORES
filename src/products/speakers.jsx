@@ -62,7 +62,7 @@ function speakers() {
                 
         </div>
   )
-};
+}
 
 
 export default speakers;
