@@ -24,38 +24,7 @@ function Home() {
         </Link>
       </div>
     </div>
-    <div className="p-4">
-                
-                <img src={lap} alt="lap" className="relative z-10 object-cover w-full rounded-md h-96"/>
-                <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
-                    <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                        All the features you want to know
-                    </a>
-
-                    <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt,
-                        laudantium quia tempore delect
-                    </p>
-
-                    <p className="mt-3 text-sm text-blue-500">21 October 2019</p>
-                </div>
-            </div>
-            <div className="p-4">
-                
-                <img src={spk} alt="lap" className="relative z-10 object-cover w-full rounded-md h-96"/>
-                <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
-                    <a href="#" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                        All the features you want to know
-                    </a>
-
-                    <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt,
-                        laudantium quia tempore delect
-                    </p>
-
-                    <p className="mt-3 text-sm text-blue-500">21 October 2019</p>
-                </div>
-            </div>
+     
     <div className="p-4 flex flex-wrap justify-center gap-6 lg:gap-20 md:gap-14">
             <img
               className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
