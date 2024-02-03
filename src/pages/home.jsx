@@ -1,8 +1,6 @@
 import video from "../video/one.mp4";
 import { Link } from "react-router-dom";
 import two from "../video/two.mp4";
-import lap from "../images/lap.png";
-import spk from "../images/spk.jpg";
 
 
 function Home() {
@@ -13,13 +11,13 @@ function Home() {
         <source src={video} type="video/mp4" />
         Your
       </video>
-      <div className=" px-6 absolute inset-0 bg-black/70 pb-4 flex flex-col justify-end items-center">
+      <div className=" px-6 absolute inset-0 bg-black/60 pb-4 flex flex-col justify-end items-center">
       <h4 className="block antialiased tracking-normal font-sans text-2xl sm:textlg text-gray-300 font-semibold leading-snug text-white">
         Welcome to our online store.
       </h4>
         
         <p className="block antialiased  text-white my-2 font-normal text-center">We are excited to have you here  <b>And</b> showcase our beautiful products to you.</p>
-        <Link to='/products' className="p-4 text-sm text-white bg-black rounded-full w-fit ">
+        <Link to='/products'className="p-4 text-sm text-white bg-black rounded-full w-fit ">
         Check out our products
         </Link>
       </div>

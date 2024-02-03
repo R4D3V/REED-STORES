@@ -11,7 +11,7 @@ function Products() {
 <div className="container mx-auto px-4 text-center py-8">
   <h2 className="block antialiased tracking-normal font-sans text-4xl font-semibold leading-[1.3] text-blue-gray-900 !text-3xl !leading-snug lg:!text-4xl">Shop by your preffered choice.</h2>
   <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mt-2  text-gray-500 ">Look through the categories we have to offer to you.</p>
-  <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
+  <div className="mt-10 grid grid-cols-1 gap-10 place-center lg:grid-cols-3">
     <div className="relative shadow-black flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md  grid min-h-[30rem] items-end overflow-hidden dark:shadow-cyan-600"><img src={lap} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end items-center">
