@@ -11,7 +11,7 @@ function Home() {
         <source src={video} type="video/mp4" />
         Your
       </video>
-      <div className=" px-6 absolute inset-0 bg-black/60 pb-4 flex flex-col justify-end items-center">
+      <div className=" px-6 absolute inset-0 bg-black/50 pb-4 flex flex-col justify-end items-center">
       <h4 className="block antialiased tracking-normal font-sans text-2xl sm:textlg text-gray-300 font-semibold leading-snug text-white">
         Welcome to our online store.
       </h4>
